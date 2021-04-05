@@ -41,7 +41,7 @@ function draw() {
         ball.shapeColor = "blue";
         ball.velocityX = 0;
         ball.velocityY = 0;
-        music.stop();
+        music.play();
     }
 
 
@@ -49,14 +49,14 @@ function draw() {
         ball.shapeColor = "orange";
         ball.velocityX = 0;
         ball.velocityY = 0;
-        music.stop();
+        music.play();
     }
 
     if(block3.isTouching(ball)&& ball.bounceOff(block3)){
         ball.shapeColor = "red";
         ball.velocityX = 0;
         ball.velocityY = 0;
-        music.stop();
+        music.play();
     }
 
 
@@ -64,7 +64,7 @@ function draw() {
         ball.shapeColor = "purple";
         ball.velocityX = 0;
         ball.velocityY = 0;
-        music.stop();
+        music.play();
     }
 
     drawSprites();
