@@ -4,7 +4,7 @@ var ball, edges;
 var music;
 
 function preload(){
-    // load sound here
+music = loadSound("music.mp3");
 }
 
 
@@ -17,10 +17,10 @@ function setup(){
     block2 = createSprite(295,580,200,30);
     block2.shapeColor = "orange";
 
-    block3 = createSprite();
+    block3 = createSprite(395,580,200,30);
     block3.shapeColor = "red";
 
-    block4 = createSprite();
+    block4 = createSprite(595.580,300,30);
     block4.shapeColor = "purple";
 
     ball = createSprite(random(20,750),100, 40,40);
