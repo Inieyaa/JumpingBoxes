@@ -17,10 +17,10 @@ function setup(){
     block2 = createSprite(295,580,200,30);
     block2.shapeColor = "orange";
 
-    block3=create sprite(395,580,200,30);
+    block3 = createSprite(495.580,200,30);
     block3.shapeColor = "red";
 
-    block4=create sprite(740,580,220,30);
+    block4 = createSprite(750,580,200,30);
     block4.shapeColor = "purple";
 
     ball = createSprite(random(20,750),100, 40,40);
@@ -63,4 +63,3 @@ function draw() {
 
     drawSprites();
 }
-
